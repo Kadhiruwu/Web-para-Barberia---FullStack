@@ -1,0 +1,26 @@
+{
+    "name": "kadhi/app-salon_php_mvc_js_sass",
+    "description": "PROYECTO PHP 8, MVC, SQL, SASS, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+
+ 
+        }
+    },
+    "authors": [
+        {
+            "name": "Kadhir",
+            "email": "kadhir.avila.gallardo@gmai.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6",
+        "sendinblue/api-v3-sdk": "^8.4"
+    }
+}

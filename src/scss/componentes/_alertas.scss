@@ -1,0 +1,20 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+.alerta{
+    padding: 1.30rem;
+    color: v.$blanco;
+    width: 100%;
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+
+    &.error{
+        background-color: v.$rojo;
+    }
+
+    &.exito{
+        background-color: v.$verde;
+    }
+}

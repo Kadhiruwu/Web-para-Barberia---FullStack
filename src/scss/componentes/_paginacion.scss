@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.paginacion{
+    padding: 2rem 0rem;
+
+    @include m.tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin: 0 0 1rem 0;
+    }
+}
+
+.ocultar{
+    visibility: hidden; //oculta la propiedad
+}
+
